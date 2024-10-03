@@ -1,0 +1,195 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+#navT td a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+#navT{
+    background: rgb(73, 73, 160);
+    width: 100%;
+    height: 100px;
+}
+
+#nav{
+    justify-content: flex-end; 
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+    height: 90%;
+}
+
+#nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nav a:hover{
+    font-size: large;
+}
+#side{
+    /* display: flex; */
+    height: 100vh;
+    width: 100%;
+    background: white;
+    table-layout: fixed;
+}
+
+#side td{
+    vertical-align: top;
+    padding: 10px;
+}
+#side aside{
+    background: rgb(255, 255, 255);
+    border: 2px dotted black;
+    padding: 10px;
+    width: 98%;
+}
+
+
+
+.sideLink{
+    display: block;
+    border: 2px dotted black;
+    padding: 10px;
+    width: 98%;
+}
+
+#neg{
+    border-bottom: none;
+    border-top: none;
+}
+
+#negN{
+border-bottom: none;
+}
+
+#negNN{
+ border-top: none;
+}
+#eh-biy{
+    width: 100%;
+    /* display: block; */
+    /* border: 2px solid black; */
+}
+#eh-biy2{
+    width: 100%;
+    border: 2px solid black;
+}
+
+#pic1 {
+    background-image: url('./img/image1.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+#eh-biyGarchig{
+    width: 100%;
+    background-color: rgb(73, 73, 160);
+    color: white;
+    text-align: left;
+}
+
+#ar{
+    width: 100%;
+}
+
+#twenty{
+    width: 20%;
+}
+
+#eit{
+    width: 80%;
+}
+#gadnahTable{
+    width: 100%;
+    border: 2px solid black;
+    padding: 0;
+}
+#eh-biyContainer{
+    width: 100%;
+}
+#eh1BG{
+    background-color: rgb(73, 73, 160);
+    color: white;
+    margin: 0;
+}
+#eh2BG{
+    background-color: rgb(73, 73, 160);
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+.eh1Border{
+    border: 2px solid black;
+}
+.eh1Border a{
+    text-decoration: none;
+}
+#eh1bordertable{
+    width: 100%;
+    border-collapse: collapse;
+}
+#eh1BGTable{
+    width: 100%;
+}
+#eh1BGTable{
+    width: 100%;
+}
+#connection{
+    border: 2px solid black;
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+#connection h2{
+    color: white;
+    background-color: rgb(73, 73, 160);
+    padding: 7px;
+}
+#connection p{
+    padding: 10px;
+}
+#access{
+    padding: 0 !important;
+    border: 2px solid black;
+}
+#access h2{
+    color: white;
+    background-color: rgb(73, 73, 160);
+    padding: 7px;
+}
+#access p{
+    padding: 10px;
+}
+
+#eh-biy2 p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+#eh-biy2 p a {
+    margin-left: 10px; 
+}
+#info{
+    width: 100%;
+}
+#zuragTable{
+    width: 100%;
+    height: 50vh
+}
+#zuragTD{
+    border: 2px solid black;
+    padding: 0 !important;
+}
+#gadnahPad{
+    padding: 0 !important;
+}
+#twenty a{
+    text-decoration: none;
+}
