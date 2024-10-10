@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(24, 119, 242);
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+header h1{
+    display: block;
+    color: white;
+    padding-right: 10%;
+}
+nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: rgb(24, 119, 242);
+    padding-right: 10%;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 25%;
+}
+aside form{
+    margin: 20px;
+    border: 2px dotted black;
+    padding: 5px;
+    width: 83.5%;
+}
+aside form button{
+    margin-left: 90%;
+    color: white;
+    background-color: rgb(33, 38, 124);
+    padding: 5px;
+    border-radius: 4px;
+}
+aside form input{
+    background-color: rgb(166, 176, 207);
+}
+
+#sideTable{
+    margin: 20px;
+    border: 2px dotted black;
+    width: 87%;
+}
+#sideTable td{
+    padding: 5px;
+}
+#sideTable a{
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+}
+main{
+    margin-top: 20px;
+    width: 75%;
+    border: 2px solid black;
+}
+main h3{
+    background-color: rgb(24, 119, 242);
+    padding: 10px;
+    color: white;
+
+}
+.garchig1{
+    width: 100%;
+    background-color: rgb(24, 119, 242);
+    /* padding: 10px; */
+    color: white;
+}
+#ehbiy{
+    display: flex;
+}
+#zuun{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+#zuunTable{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#zuunTable td{
+    border-bottom: 2px solid black;
+}
+.responsive-image{
+    width: 100%;
+    height: auto;
+}
+#zuun article{
+    border: 2px solid black;
+}
+
+#baruun{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+}
+#baruun article{
+    border: 2px solid black;
+}
+#baruun article td{
+    padding: 4px;
+}
+#baruun article td a{
+    text-decoration: none;
+}
+#baruun article table{
+    width: 100%;
+}
+footer{
+    background-color: rgb(24, 119, 242);
+    margin-top: 30px;
+}
